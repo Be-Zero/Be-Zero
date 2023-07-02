@@ -121,9 +121,6 @@
     <td><img src="https://wakatime.com/share/@BeZer0/07014ec1-17d3-401a-b9ad-bc7f98724b57.svg" width="500" alt="Wakatime"/></td>
     <td><img src="https://wakatime.com/share/@BeZer0/76d5ecec-66ce-439d-91a6-35f493dc34cc.svg" width="500" alt="Wakatime"/></td>
   </tr>
-  <tr>
-    <td colspan="2"><a href="https://run.sunguoqi.com"><img width="200%" src="https://cdn.jsdelivr.net/gh/Be-Zero/running/assets/github_2023.svg" /></a><br></td>
-  </tr>
 </table>
 </div>
 <!-- GitHub metrics 信息指标 -->
