@@ -166,6 +166,10 @@
     <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/stackoverflow.svg" alt="stackoverflow" /></td>
     <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/stargazers.chartist.svg" alt="stargazers.chartist" /></td>
   </tr>
+  <tr>
+    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/16personalities.svg" alt="stackoverflow" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/leetcode.svg" alt="stargazers.chartist" /></td>
+  </tr>  
 </table>
 
 <img width="120%" src="https://repobeats.axiom.co/api/embed/8761dd164bd1cc027dff85c2a91237e665107a95.svg" />
