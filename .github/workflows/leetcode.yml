@@ -1,9 +1,11 @@
 name: LeetCode Import
 
 on:
-  push:
-    branches:
-      - main
+  schedule:
+    - cron: "0 0 * * *" 
+  
+  # allows to manually run the job at any time
+  workflow_dispatch:
 
 jobs:
   import:
@@ -15,5 +17,5 @@ jobs:
       - name: Import LeetCode submissions
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           plugin_leetcode_import: yes
