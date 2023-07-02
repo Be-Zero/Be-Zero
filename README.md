@@ -164,7 +164,7 @@
     <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/stargazers.chartist.svg" alt="stargazers.chartist" /></td>
   </tr>
   <tr>
-    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/16personalities.svg" alt="16personalities" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/16personalities.svg" alt="" /></td>
     <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/leetcode.svg" alt="leetcode" /></td>
   </tr>  
 </table>
