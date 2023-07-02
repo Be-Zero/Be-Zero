@@ -114,18 +114,12 @@
 <!-- GitHub 数据统计 -->
 <img align="" height="137px" src="https://github-readme-stats.vercel.app/api?username=Be-Zero&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&line_height=21&bg_color=0,EC6C6C,FFD479,FFFC79,73FA79&theme=graywhite&locale=cn" />
 <img align="" height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Be-Zero&hide_title=true&hide_border=true&layout=compact&bg_color=0,73FA79,73FDFF,D783FF&theme=graywhite&locale=cn" /><br><br>
-
-<!-- Awesome repo 比较好的仓库-->
-<a href="https://github.com/Be-Zero/Awesome-Love-Code">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Be-Zero&repo=Awesome-Love-Code&theme=dark&bg_color=121212&hide_border=true" /></a>
-<a href="https://github.com/Be-Zero/Student-Data-Vision">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Be-Zero&repo=Student-Data-Vision&theme=dark&bg_color=121212&hide_border=true" /></a><br><br>
   
 <!-- Wakatime Graph-->
 <table>
   <tr>
-    <td><img src="https://wakatime.com/share/@42d0678c-368b-448b-9a77-5d21c5b55352/d07b5f65-d3e1-4896-897c-1695c560a7dc.svg" width="500" alt="Wakatime"/></td>
-    <td><img src="https://wakatime.com/share/@42d0678c-368b-448b-9a77-5d21c5b55352/39a6f115-6058-44ce-95da-c3b2cbc9e831.svg" width="500" alt="Wakatime"/></td>
+    <td><img src="https://wakatime.com/share/@BeZer0/07014ec1-17d3-401a-b9ad-bc7f98724b57.svg" width="500" alt="Wakatime"/></td>
+    <td><img src="https://wakatime.com/share/@BeZer0/76d5ecec-66ce-439d-91a6-35f493dc34cc.svg" width="500" alt="Wakatime"/></td>
   </tr>
   <tr>
     <td colspan="2"><a href="https://run.sunguoqi.com"><img width="200%" src="https://cdn.jsdelivr.net/gh/Be-Zero/running/assets/github_2023.svg" /></a><br></td>
