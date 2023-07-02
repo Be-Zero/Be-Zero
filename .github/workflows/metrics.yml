@@ -18,7 +18,7 @@ jobs:
         with:
           filename: github-metrics/base.svg
           # Your GitHub token
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           # Options
           user: Be-Zero
           template: classic
@@ -44,7 +44,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics/isocalendar.fullyear.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           # 不添加基础信息
           base: ""
           # 使用此插件
@@ -57,7 +57,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics/languages.indepth.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           base: ""
           plugin_languages: yes
           plugin_languages_ignored: >-
@@ -73,7 +73,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics/stargazers.chartist.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           base: ""
           plugin_stargazers: yes
           plugin_stargazers_charts_type: chartist
@@ -94,7 +94,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics/stars.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           base: ""
           plugin_stars: yes
           plugin_stars_limit: 3
@@ -104,7 +104,7 @@ jobs:
 #         uses: lowlighter/metrics@latest
 #         with:
 #           filename: github-metrics/licenses.ratio.svg
-#           token: ${{ secrets.METRICS_TOKEN }}
+#           token: ${{ secrets.GH_TOKEN }}
 #           base: ""
 #           template: repository
 #           repo: metrics
@@ -118,7 +118,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics/habits.charts.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           base: ""
           plugin_habits: yes
           plugin_habits_facts: no
@@ -130,7 +130,7 @@ jobs:
 #         uses: lowlighter/metrics@latest
 #         with:
 #           filename: github-metrics/contributors.contributions.svg
-#           token: ${{ secrets.METRICS_TOKEN }}
+#           token: ${{ secrets.GH_TOKEN }}
 #           base: ""
 #           template: repository
 #           repo: metrics
@@ -142,7 +142,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics/followup.indepth.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           base: ""
           plugin_followup: yes
           plugin_followup_indepth: yes
@@ -152,7 +152,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics/reactions.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           base: ""
           plugin_reactions: yes
           plugin_reactions_limit: 100
@@ -163,7 +163,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics/people.followers.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           base: ""
           plugin_people: yes
           plugin_people_limit: 500
@@ -175,7 +175,7 @@ jobs:
 #         uses: lowlighter/metrics@latest
 #         with:
 #           filename: github-metrics/sponsors.svg
-#           token: ${{ secrets.METRICS_TOKEN }}
+#           token: ${{ secrets.GH_TOKEN }}
 #           base: ""
 #           plugin_sponsors: yes
 #           plugin_sponsors_sections: goal, list
@@ -186,7 +186,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics/repositories.pinned.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           base: ""
           plugin_repositories: yes
           plugin_repositories_pinned: 2
@@ -196,7 +196,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics/discussions.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           base: ""
           plugin_discussions: yes
           plugin_discussions_categories_limit: 8       
@@ -206,7 +206,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics/calendar.full.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           base: ""
           plugin_calendar: yes
           plugin_calendar_limit: 0
@@ -216,7 +216,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics/achievements.compact.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           base: ""
           plugin_achievements: yes
           plugin_achievements_only: >-
@@ -230,7 +230,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics/activity.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           base: ""
           plugin_activity: yes
           plugin_activity_limit: 5
@@ -242,7 +242,7 @@ jobs:
 #         uses: lowlighter/metrics@latest
 #         with:
 #           filename: github-metrics/code.svg
-#           token: ${{ secrets.METRICS_TOKEN }}
+#           token: ${{ secrets.GH_TOKEN }}
 #           base: ""
 #           plugin_code: yes
 #           plugin_code_languages: javascript, typescript
@@ -253,7 +253,7 @@ jobs:
 #         uses: lowlighter/metrics@latest
 #         with:
 #           filename: github-metrics/projects.svg
-#           token: ${{ secrets.METRICS_TOKEN_WITH_SCOPES }}
+#           token: ${{ secrets.GH_TOKEN_WITH_SCOPES }}
 #           base: ""
 #           plugin_projects: yes
 #           plugin_projects_repositories: lowlighter/metrics/projects/1
@@ -282,7 +282,7 @@ jobs:
           plugin_pagespeed_detailed: yes
           plugin_pagespeed_screenshot: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
-          plugin_pagespeed_url: https://blog.sunguoqi.com
+          plugin_pagespeed_url: https://be-zero.github.io
 
       # 🐤 Latest tweets
       # 需要申请开发者账户
