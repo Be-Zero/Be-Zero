@@ -1,0 +1,19 @@
+name: LeetCode Import
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      
+      - name: Import LeetCode submissions
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+          plugin_leetcode_import: yes
