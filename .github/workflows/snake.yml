@@ -28,4 +28,4 @@ jobs:
           build_dir: dist
           keep_history: true
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT_1 }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
