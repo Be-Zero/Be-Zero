@@ -14,7 +14,7 @@
     <a href="https://be-zero.github.io/"><img src="https://img.shields.io/badge/Website-博客-blue" /></a>&emsp;
     <a href="https://twitter.com/KegThunder/"><img src="https://img.shields.io/badge/Twitter-推特-blue" /></a>&emsp;
     <a href="https://www.youtube.com/@thunderkegb0149"><img src="https://img.shields.io/badge/YouTube-油管-c32136" /></a>&emsp;
-    <a href="https://raw.githubusercontent.com/Be-Zero/PicGo/main/blog/2023-07-01-12-27-10.png"><img src="https://img.shields.io/badge/WeChat-微信-07c160" /></a>&emsp;
+    <a href="https://cdn.jsdelivr.net/gh/Be-Zero/PicGo@main/blog/2023-07-01-12-27-10.png"><img src="https://img.shields.io/badge/WeChat-微信-07c160" /></a>&emsp;
     <a href="https://space.bilibili.com/19982986/"><img src="https://img.shields.io/badge/Bilibili-B站-ff69b4" /></a>&emsp;
     <a href="https://blog.csdn.net/qq_42375636/"><img src="https://img.shields.io/badge/CSDN-论坛-c32136" /></a>&emsp;
     <a href="https://www.zhihu.com/people/bi-ling-38"><img src="https://img.shields.io/badge/Zhihu-知乎-blue" /></a>&emsp;
@@ -24,9 +24,9 @@
 
   <!-- Snake Code Contribution Map 贪吃蛇代码贡献图 -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/profile-snake-contrib/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/profile-snake-contrib/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
 </picture>
 
 </div>
@@ -39,7 +39,7 @@
 <!-- About me 关于我 -->
 ### 🤺 About Me
 
-<img align="right" width="88" src="https://raw.githubusercontent.com/Be-Zero/PicGo/main/blog/2023-07-01-12-28-41.jpg" />
+<img align="right" width="88" src="https://cdn.jsdelivr.net/gh/Be-Zero/PicGo@main/blog/2023-07-01-12-28-41.jpg" />
 
 <p>&emsp;&emsp;大家好，我是 BeZer0 。</p>
 <p>&emsp;&emsp;热爱编程、摄影、读书、写作。</p>
@@ -105,11 +105,11 @@
 </table>
 
 <!-- profile-3d-contrib 3D贡献图-->
-<img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/profile-3d-contrib/profile-night-rainbow.svg" />
+<img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/profile-3d-contrib/profile-night-rainbow.svg" />
 </div>
 
 <!-- ########################################## 分割 ########################################## -->
-<img width="200%" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/assets/images/hr.gif" />
+<img width="200%" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/assets/images/hr.gif" />
 <div align="center" >  
 <!-- GitHub 数据统计 -->
 <img align="" height="137px" src="https://github-readme-stats.vercel.app/api?username=Be-Zero&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&line_height=21&bg_color=0,EC6C6C,FFD479,FFFC79,73FA79&theme=graywhite&locale=cn" />
@@ -129,43 +129,43 @@
 <!-- first form 第一个表格 -->
 <table>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/people.followers.svg" alt="people.followers" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/people.followers.svg" alt="people.followers" /></td>
   </tr>
 </table>
 
 <!-- second form 第二个表格 -->
 <table>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/languages.indepth.svg" alt="languages.indepth" /></td>
-    <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/reactions.svg" alt="reactions" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/languages.indepth.svg" alt="languages.indepth" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/reactions.svg" alt="reactions" /></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/followup.indepth.svg" alt="followup.indepth" /></td>
-    <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/achievements.compact.svg" alt="achievements.compact" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/followup.indepth.svg" alt="followup.indepth" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/achievements.compact.svg" alt="achievements.compact" /></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/wakatime.svg" alt="wakatime" /></td>
-    <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/habits.charts.svg" alt="habits.charts" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/wakatime.svg" alt="wakatime" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/habits.charts.svg" alt="habits.charts" /></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/isocalendar.fullyear.svg" alt="isocalendar.fullyear" /></td>
-    <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/calendar.full.svg" alt="calendar.full" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/isocalendar.fullyear.svg" alt="isocalendar.fullyear" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/calendar.full.svg" alt="calendar.full" /></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/discussions.svg" alt="discussions" /></td>
-    <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/repositories.pinned.svg" alt="repositories.pinned" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/discussions.svg" alt="discussions" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/repositories.pinned.svg" alt="repositories.pinned" /></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/activity.svg" alt="activity" /></td>
-    <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/stars.svg" alt="stars" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/activity.svg" alt="activity" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/stars.svg" alt="stars" /></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/stackoverflow.svg" alt="stackoverflow" /></td>
-    <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/stargazers.chartist.svg" alt="stargazers.chartist" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/stackoverflow.svg" alt="stackoverflow" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/stargazers.chartist.svg" alt="stargazers.chartist" /></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/16personalities.svg" alt="" /></td>
-    <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/leetcode.svg" alt="" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/16personalities.svg" alt="" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/leetcode.svg" alt="" /></td>
   </tr>  
 </table>
 
@@ -204,15 +204,15 @@
 <img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 50px; margin-bottom: 0px;" /><br>
 
 <!-- gif -->
-<img height="100" width="100" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/assets/images/html.webp">
-<img height="100" width="100" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/assets/images/cssgif.webp">
-<img height="100" width="100" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/assets/images/vscode.webp">
-<img height="100" width="100" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/assets/images/react.webp">
-<img height="95" width="95" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/assets/images/vue.webp">
-<img height="100" width="100" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/assets/images/python.webp">
-<img height="100" width="100" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/assets/images/js.webp">
-<img height="100" width="100" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/assets/images/github.webp">
+<img height="100" width="100" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/assets/images/html.webp">
+<img height="100" width="100" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/assets/images/cssgif.webp">
+<img height="100" width="100" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/assets/images/vscode.webp">
+<img height="100" width="100" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/assets/images/react.webp">
+<img height="95" width="95" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/assets/images/vue.webp">
+<img height="100" width="100" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/assets/images/python.webp">
+<img height="100" width="100" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/assets/images/js.webp">
+<img height="100" width="100" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/assets/images/github.webp">
 
 <!-- just img 图片 -->
-<img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/assets/images/icon.png" />
+<img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/assets/images/icon.png" />
 </div>
