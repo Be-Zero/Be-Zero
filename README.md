@@ -14,9 +14,9 @@
     <a href="https://be-zero.github.io/"><img src="https://img.shields.io/badge/Website-博客-blue" /></a> 
     <a href="https://twitter.com/KegThunder/"><img src="https://img.shields.io/badge/Twitter-推特-blue" /></a> 
     <a href="https://www.youtube.com/@thunderkegb0149"><img src="https://img.shields.io/badge/YouTube-油管-c32136" /></a>
-    {% if link_acceleration %}
+    {% if eq(secrets.LINK_ACCELERATION, 'true') %}
     <a href="https://cdn.jsdelivr.net/gh/Be-Zero/PicGo@main/blog/2023-07-01-12-27-10.png"><img src="https://img.shields.io/badge/WeChat-微信-07c160" /></a> 
-    {% else %}
+    {% else if eq(secrets.LINK_ACCELERATION, 'false') %}
     <a href="https://raw.githubusercontent.com/Be-Zero/PicGo/main/blog/2023-07-01-12-07-59.png"><img src="https://img.shields.io/badge/WeChat-微信-07c160" /></a> 
     {% endif %}
     <a href="https://space.bilibili.com/19982986/"><img src="https://img.shields.io/badge/Bilibili-B站-ff69b4" /></a> 
@@ -29,11 +29,11 @@
 <!-- Snake Code Contribution Map 贪吃蛇代码贡献图 -->
 
 <picture>
-  {% if link_acceleration %}
+  {% if eq(secrets.LINK_ACCELERATION, 'true') %}
   <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/profile-snake-contrib/github-contribution-grid-snake.svg" />
   <img alt="github-snake" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
-  {% else %}
+  {% else if eq(secrets.LINK_ACCELERATION, 'false') %}
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/profile-snake-contrib/github-contribution-grid-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
@@ -48,17 +48,17 @@
 <tr><td>
 
 <!-- profile-3d-contrib 3D贡献图-->
-{% if link_acceleration %}
+{% if eq(secrets.LINK_ACCELERATION, 'true') %}
 <img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/profile-3d-contrib/profile-night-rainbow.svg" />
-{% else %}
+{% else if eq(secrets.LINK_ACCELERATION, 'false') %}
 <img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/profile-3d-contrib/profile-night-rainbow.svg" />
 {% endif %}
 </div>
 
 <!-- ########################################## 分割 ########################################## -->
-{% if link_acceleration %}
+{% if eq(secrets.LINK_ACCELERATION, 'true') %}
 <img width="200%" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/assets/images/hr.gif" />
-{% else %}
+{% else if eq(secrets.LINK_ACCELERATION, 'false') %}
 <img width="200%" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/assets/images/hr.gif" />
 {% endif %}
 <div align="center" >  
@@ -86,9 +86,9 @@
 
 <table>
   <tr>
-    {% if link_acceleration %}
+    {% if eq(secrets.LINK_ACCELERATION, 'true') %}
     <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/people.followers.svg" alt="people.followers" /></td>
-    {% else %}
+    {% else if eq(secrets.LINK_ACCELERATION, 'false') %}
     <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/people.followers.svg" alt="people.followers" /></td>
     {% endif %}
   </tr>
@@ -98,73 +98,73 @@
 
 <table>
   <tr>
-    {% if link_acceleration %}
+    {% if eq(secrets.LINK_ACCELERATION, 'true') %}
     <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/languages.indepth.svg" alt="languages.indepth" /></td>
     <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/reactions.svg" alt="reactions" /></td>
-    {% else %}
+    {% else if eq(secrets.LINK_ACCELERATION, 'false') %}
     <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/languages.indepth.svg" alt="languages.indepth" /></td>
     <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/reactions.svg" alt="reactions" /></td>
     {% endif %}
   </tr>
   <tr>
-    {% if link_acceleration %}
+    {% if eq(secrets.LINK_ACCELERATION, 'true') %}
     <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/followup.indepth.svg" alt="followup.indepth" /></td>
     <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/achievements.compact.svg" alt="achievements.compact" /></td>
-    {% else %}
+    {% else if eq(secrets.LINK_ACCELERATION, 'false') %}
     <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/followup.indepth.svg" alt="followup.indepth" /></td>
     <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/achievements.compact.svg" alt="achievements.compact" /></td>
     {% endif %}
   </tr>
   <tr>
-    {% if link_acceleration %}
+    {% if eq(secrets.LINK_ACCELERATION, 'true') %}
     <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/wakatime.svg" alt="wakatime" /></td>
     <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/habits.charts.svg" alt="habits.charts" /></td>
-    {% else %}
+    {% else if eq(secrets.LINK_ACCELERATION, 'false') %}
     <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/wakatime.svg" alt="wakatime" /></td>
     <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/habits.charts.svg" alt="habits.charts" /></td>
     {% endif %}
   </tr>
   <tr>
-    {% if link_acceleration %}
+    {% if eq(secrets.LINK_ACCELERATION, 'true') %}
     <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/isocalendar.fullyear.svg" alt="isocalendar.fullyear" /></td>
     <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/calendar.full.svg" alt="calendar.full" /></td>
-    {% else %}
+    {% else if eq(secrets.LINK_ACCELERATION, 'false') %}
     <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/isocalendar.fullyear.svg" alt="isocalendar.fullyear" /></td>
     <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/calendar.full.svg" alt="calendar.full" /></td>
     {% endif %}
   </tr>
   <tr>
-    {% if link_acceleration %}
+    {% if eq(secrets.LINK_ACCELERATION, 'true') %}
     <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/discussions.svg" alt="discussions" /></td>
     <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/repositories.pinned.svg" alt="repositories.pinned" /></td>
-    {% else %}
+    {% else if eq(secrets.LINK_ACCELERATION, 'false') %}
     <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/discussions.svg" alt="discussions" /></td>
     <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/repositories.pinned.svg" alt="repositories.pinned" /></td>
     {% endif %}
   </tr>
   <tr>
-    {% if link_acceleration %}
+    {% if eq(secrets.LINK_ACCELERATION, 'true') %}
     <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/activity.svg" alt="activity" /></td>
     <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/stars.svg" alt="stars" /></td>
-    {% else %}
+    {% else if eq(secrets.LINK_ACCELERATION, 'false') %}
     <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/activity.svg" alt="activity" /></td>
     <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/stars.svg" alt="stars" /></td>
     {% endif %}
   </tr>
   <tr>
-    {% if link_acceleration %}
+    {% if eq(secrets.LINK_ACCELERATION, 'true') %}
     <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/stackoverflow.svg" alt="stackoverflow" /></td>
     <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/stargazers.chartist.svg" alt="stargazers.chartist" /></td>
-    {% else %}
+    {% else if eq(secrets.LINK_ACCELERATION, 'false') %}
     <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/stackoverflow.svg" alt="stackoverflow" /></td>
     <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/stargazers.chartist.svg" alt="stargazers.chartist" /></td>
     {% endif %}
   </tr>
   <tr>
-    {% if link_acceleration %}
+    {% if eq(secrets.LINK_ACCELERATION, 'true') %}
     <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/16personalities.svg" alt="" /></td>
     <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/leetcode.svg" alt="" /></td>
-    {% else %}
+    {% else if eq(secrets.LINK_ACCELERATION, 'false') %}
     <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/16personalities.svg" alt="" /></td>
     <td><img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/leetcode.svg" alt="" /></td>
     {% endif %}
@@ -176,9 +176,9 @@
 </div>
 
 <!-- ########################################## 分割 ########################################## -->
-{% if link_acceleration %}
+{% if eq(secrets.LINK_ACCELERATION, 'true') %}
 <img width="200%" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/assets/images/hr.gif" />
-{% else %}
+{% else if eq(secrets.LINK_ACCELERATION, 'false') %}
 <img width="200%" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/assets/images/hr.gif" />
 {% endif %}
 <div align="center" >
@@ -212,7 +212,7 @@
 <img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="icon" width="65" style="width: 65px; height: 65px; margin-right: 50px; margin-bottom: 0px;" /><br>
 
 <!-- gif -->
-{% if link_acceleration %}
+{% if eq(secrets.LINK_ACCELERATION, 'true') %}
 <img height="100" width="100" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/assets/images/html.webp">
 <img height="100" width="100" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/assets/images/cssgif.webp">
 <img height="100" width="100" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/assets/images/vscode.webp">
@@ -221,7 +221,7 @@
 <img height="100" width="100" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/assets/images/python.webp">
 <img height="100" width="100" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/assets/images/js.webp">
 <img height="100" width="100" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/assets/images/github.webp">
-{% else %}
+{% else if eq(secrets.LINK_ACCELERATION, 'false') %}
 <img height="100" width="100" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/assets/images/html.webp">
 <img height="100" width="100" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/assets/images/cssgif.webp">
 <img height="100" width="100" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/assets/images/vscode.webp">
@@ -232,9 +232,9 @@
 <img height="100" width="100" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/assets/images/github.webp">
 {% endif %}
 <!-- just img 图片 -->
-{% if link_acceleration %}
+{% if eq(secrets.LINK_ACCELERATION, 'true') %}
 <img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/assets/images/icon.png" />
-{% else %}
+{% else if eq(secrets.LINK_ACCELERATION, 'false') %}
 <img src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/assets/images/icon.png" />
 {% endif %}
 </div>
