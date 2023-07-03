@@ -17,7 +17,7 @@ jobs:
 
       - name: Update README
         run: |
-          acceleration_enabled="${{ secrets.LINK_ACCELERATION }}"
+          acceleration_enabled="${{ github.event.inputs.link_acceleration }}"
           if [ "$acceleration_enabled" == "true" ]; then
             sed -i 's#https://raw.githubusercontent.com/Be-Zero/PicGo/main#https://cdn.jsdelivr.net/gh/Be-Zero/PicGo@main#g' README.md
             sed -i 's#https://raw.githubusercontent.com/Be-Zero/Be-Zero/main#https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero#g' README.md
