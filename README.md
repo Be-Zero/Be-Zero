@@ -165,7 +165,7 @@
   </tr>
   <tr>
     <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/16personalities.svg" alt="" /></td>
-    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/leetcode.svg" alt="leetcode" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/leetcode.svg" alt="" /></td>
   </tr>  
 </table>
 
