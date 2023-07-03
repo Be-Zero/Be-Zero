@@ -14,7 +14,7 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
-
+      
       - name: Update README
         run: |
           acceleration_enabled="${{ github.event.inputs.link_acceleration }}"
@@ -27,6 +27,8 @@ jobs:
           fi
 
       - name: Commit & Push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
