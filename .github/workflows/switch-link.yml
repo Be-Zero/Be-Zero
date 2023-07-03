@@ -1,0 +1,24 @@
+name: Switch Link
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+      - name: Update README
+        run: |
+          sed -i "s/{% if link_acceleration %}/{% if eq(secrets.LINK_ACCELERATION, 'true') %}/g" README.md
+          sed -i "s/{% else %}/{% else if eq(secrets.LINK_ACCELERATION, 'false') %}/g" README.md
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add README.md
+          git commit -m "Update README with link switch"
+          git push
