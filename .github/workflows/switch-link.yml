@@ -1,24 +1,35 @@
-name: Switch Link
+name: switch link
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
+    inputs:
+      link_acceleration:
+        description: 'Enable link acceleration'
+        required: true
+        default: 'false'
 
 jobs:
-  update-readme:
+  update-links:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
+
       - name: Update README
         run: |
-          sed -i "s/{% if link_acceleration %}/{% if eq(secrets.LINK_ACCELERATION, 'true') %}/g" README.md
-          sed -i "s/{% else %}/{% else if eq(secrets.LINK_ACCELERATION, 'false') %}/g" README.md
+          acceleration_enabled="${{ secrets.LINK_ACCELERATION }}"
+          if [ "$acceleration_enabled" == "true" ]; then
+            sed -i 's#https://raw.githubusercontent.com/Be-Zero/PicGo/main#https://cdn.jsdelivr.net/gh/Be-Zero/PicGo@main#g' README.md
+            sed -i 's#https://raw.githubusercontent.com/Be-Zero/Be-Zero/main#https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero#g' README.md
+          else
+            sed -i 's#https://cdn.jsdelivr.net/gh/Be-Zero/PicGo@main#https://raw.githubusercontent.com/Be-Zero/PicGo/main#g' README.md
+            sed -i 's#https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero#https://raw.githubusercontent.com/Be-Zero/Be-Zero/main#g' README.md
+          fi
+
       - name: Commit & Push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add README.md
-          git commit -m "Update README with link switch"
+          git commit -m "switch link"
           git push
