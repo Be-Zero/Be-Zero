@@ -22,7 +22,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/profile-snake-contrib/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
+  <img width="100%" alt="github-snake" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
 </picture>
 
 </div>
@@ -45,21 +45,31 @@
 <tr><td>
 
 <!-- profile-3d-contrib 3D贡献图-->
-<img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/profile-3d-contrib/profile-night-rainbow.svg" />
-</div>
+<img width="100%" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" />
+
+</td></tr>
+</table>
 
 <!-- ########################################## 分割 ########################################## -->
-<img width="200%" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/assets/images/hr.gif" />
+<img width="100%" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/assets/images/hr.gif" alt="" />
 <div align="center" >  
 <!-- GitHub 数据统计 -->
-<img align="" height="137px" src="https://github-readme-stats.vercel.app/api?username=Be-Zero&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&line_height=21&bg_color=0,EC6C6C,FFD479,FFFC79,73FA79&theme=graywhite&locale=cn" />
-<img align="" height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Be-Zero&hide_title=true&hide_border=true&layout=compact&bg_color=0,73FA79,73FDFF,D783FF&theme=graywhite&locale=cn" /><br><br>
-  
-<!-- Wakatime Graph-->
-<table>
+<table width="100%">
   <tr>
-    <td><img src="https://wakatime.com/share/@BeZer0/07014ec1-17d3-401a-b9ad-bc7f98724b57.svg" width="500" alt="Wakatime"/></td>
-    <td><img src="https://wakatime.com/share/@BeZer0/76d5ecec-66ce-439d-91a6-35f493dc34cc.svg" width="500" alt="Wakatime"/></td>
+    <td width="50%" align="center">
+      <img width="100%" src="https://github-readme-stats.vercel.app/api?username=Be-Zero&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&line_height=21&bg_color=0,EC6C6C,FFD479,FFFC79,73FA79&theme=graywhite&locale=cn" alt="GitHub statistics" />
+    </td>
+    <td width="50%" align="center">
+      <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Be-Zero&hide_title=true&hide_border=true&layout=compact&bg_color=0,73FA79,73FDFF,D783FF&theme=graywhite&locale=cn" alt="Top languages" />
+    </td>
+  </tr>
+</table>
+
+<!-- Wakatime Graph-->
+<table width="100%">
+  <tr>
+    <td width="50%" align="center"><img src="https://wakatime.com/share/@BeZer0/07014ec1-17d3-401a-b9ad-bc7f98724b57.svg" width="100%" alt="Wakatime" /></td>
+    <td width="50%" align="center"><img src="https://wakatime.com/share/@BeZer0/76d5ecec-66ce-439d-91a6-35f493dc34cc.svg" width="100%" alt="Wakatime" /></td>
   </tr>
 </table>
 </div>
@@ -67,47 +77,47 @@
 <div align="center">
 
 <!-- first form 第一个表格 -->
-<table>
+<table width="100%">
   <tr>
-    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/people.followers.svg" alt="people.followers" /></td>
+    <td align="center"><img width="100%" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/people.followers.svg" alt="people.followers" /></td>
   </tr>
 </table>
 
 <!-- second form 第二个表格 -->
-<table>
+<table width="100%">
   <tr>
-    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/languages.indepth.svg" alt="languages.indepth" /></td>
-    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/reactions.svg" alt="reactions" /></td>
+    <td width="50%" align="center"><img width="100%" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/languages.indepth.svg" alt="languages.indepth" /></td>
+    <td width="50%" align="center"><img width="100%" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/reactions.svg" alt="reactions" /></td>
   </tr>
   <tr>
-    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/followup.indepth.svg" alt="followup.indepth" /></td>
-    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/achievements.compact.svg" alt="achievements.compact" /></td>
+    <td width="50%" align="center"><img width="100%" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/followup.indepth.svg" alt="followup.indepth" /></td>
+    <td width="50%" align="center"><img width="100%" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/achievements.compact.svg" alt="achievements.compact" /></td>
   </tr>
   <tr>
-    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/wakatime.svg" alt="wakatime" /></td>
-    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/habits.charts.svg" alt="habits.charts" /></td>
+    <td width="50%" align="center"><img width="100%" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/wakatime.svg" alt="wakatime" /></td>
+    <td width="50%" align="center"><img width="100%" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/habits.charts.svg" alt="habits.charts" /></td>
   </tr>
   <tr>
-    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/isocalendar.fullyear.svg" alt="isocalendar.fullyear" /></td>
-    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/calendar.full.svg" alt="calendar.full" /></td>
+    <td width="50%" align="center"><img width="100%" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/isocalendar.fullyear.svg" alt="isocalendar.fullyear" /></td>
+    <td width="50%" align="center"><img width="100%" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/calendar.full.svg" alt="calendar.full" /></td>
   </tr>
   <tr>
-    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/discussions.svg" alt="discussions" /></td>
-    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/repositories.pinned.svg" alt="repositories.pinned" /></td>
+    <td width="50%" align="center"><img width="100%" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/discussions.svg" alt="discussions" /></td>
+    <td width="50%" align="center"><img width="100%" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/repositories.pinned.svg" alt="repositories.pinned" /></td>
   </tr>
   <tr>
-    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/activity.svg" alt="activity" /></td>
-    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/stars.svg" alt="stars" /></td>
+    <td width="50%" align="center"><img width="100%" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/activity.svg" alt="activity" /></td>
+    <td width="50%" align="center"><img width="100%" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/stars.svg" alt="stars" /></td>
   </tr>
   <tr>
-    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/stackoverflow.svg" alt="stackoverflow" /></td>
-    <td><img src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/stargazers.chartist.svg" alt="stargazers.chartist" /></td>
+    <td width="50%" align="center"><img width="100%" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/stackoverflow.svg" alt="stackoverflow" /></td>
+    <td width="50%" align="center"><img width="100%" src="https://cdn.jsdelivr.net/gh/Be-Zero/Be-Zero/github-metrics/stargazers.chartist.svg" alt="stargazers.chartist" /></td>
   </tr>
 </table>
 
-<img width="120%" src="https://repobeats.axiom.co/api/embed/8761dd164bd1cc027dff85c2a91237e665107a95.svg" />
+<img width="100%" src="https://repobeats.axiom.co/api/embed/8761dd164bd1cc027dff85c2a91237e665107a95.svg" alt="Repository activity" />
 
 </div>
 
 <!-- ########################################## 分割 ########################################## -->
-<img width="200%" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/hr.gif" />
+<img width="100%" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/hr.gif" alt="" />
