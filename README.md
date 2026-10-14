@@ -2,7 +2,7 @@
   
   <!-- dynamic typing effect 动态打字效果 -->
   <div align="center">
-    <a href="https://be-zero.github.io/">
+    <a href="https://blog.bezer0.cn/">
       <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Don't worry, Be happy;虚己以游世，乘物以游心&center=true&size=27" alt="Typing SVG" />
     </a>
   </div>
