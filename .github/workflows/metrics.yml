@@ -197,6 +197,22 @@ jobs:
           plugin_achievements_display: compact
           plugin_achievements_threshold: X
 
+      # 🎩 Notable contributions
+      - name: Notable contributions
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics/notable.svg
+          # Notable contributions query user-level data and need a PAT.
+          token: ${{ secrets.GH_TOKEN }}
+          # Keep repository writes scoped to the workflow token.
+          committer_token: ${{ github.token }}
+          base: ""
+          plugin_notable: yes
+          plugin_notable_from: all
+          plugin_notable_types: commit,pull_request,issue
+          plugin_notable_repositories: yes
+          plugin_notable_self: no
+
       # 📰 Recent activity
       # Disabled because the upstream plugin parses legacy event payloads
       # before applying its event filter.
