@@ -42,12 +42,6 @@
 
 </td></tr>
 
-<tr><td>
-
-<!-- profile-3d-contrib 3D贡献图-->
-<img width="100%" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" />
-
-</td></tr>
 </table>
 
 <!-- ########################################## 分割 ########################################## -->
@@ -76,14 +70,7 @@
 <!-- GitHub metrics 信息指标 -->
 <div align="center">
 
-<!-- first form 第一个表格 -->
-<table width="100%">
-  <tr>
-    <td align="center"><img width="100%" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/people.followers.svg" alt="people.followers" /></td>
-  </tr>
-</table>
-
-<!-- second form 第二个表格 -->
+<!-- Metrics form 指标表格 -->
 <table width="100%">
   <tr>
     <td width="50%" align="center"><img width="100%" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/languages.indepth.svg" alt="languages.indepth" /></td>
@@ -111,8 +98,13 @@
     <td colspan="2" align="center"><img width="100%" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/stars.svg" alt="stars" /></td>
   </tr>
   <tr>
-    <td width="50%" align="center"><img width="100%" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/stackoverflow.svg" alt="stackoverflow" /></td>
-    <td width="50%" align="center"><img width="100%" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/stargazers.chartist.svg" alt="stargazers.chartist" /></td>
+    <td colspan="2" align="center"><img width="100%" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/stargazers.chartist.svg" alt="stargazers.chartist" /></td>
+  </tr>
+</table>
+
+<table width="100%">
+  <tr>
+    <td align="center"><img width="100%" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/people.followers.svg" alt="people.followers" /></td>
   </tr>
 </table>
 

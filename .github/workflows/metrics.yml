@@ -44,6 +44,8 @@ jobs:
           plugin_languages_details: lines, bytes-size
           plugin_languages_limit: 4
           plugin_languages_analysis_timeout: 15
+          commits_authoring: >-
+            Be-Zero, BeZer0, qth1203610904@gmail.com, qiutianhao@kuaishou.com
 
       # ✨ Stargazers   
       - name: Using chartist charts
@@ -182,7 +184,9 @@ jobs:
 
       # 🏆 Achievements
       - name: Compact display
-        uses: lowlighter/metrics@latest
+        # Pinned to upstream PR #1769 until it is released in @latest.
+        # @latest still queries the removed Projects Classic API.
+        uses: lowlighter/metrics@ca58c6bb513e4a04afca0ad2e46b943b543f74cc
         with:
           filename: github-metrics/achievements.compact.svg
           # Achievements queries user-level GraphQL data and needs a PAT.
@@ -264,18 +268,6 @@ jobs:
 #           plugin_tweets_attachments: yes
 #           plugin_tweets_user: github
 #           plugin_tweets_limit: 1
-
-      # 🗨️ Stack Overflow
-      - name: Top answers from stackoverflow
-        uses: lowlighter/metrics@latest
-        with:
-          filename: github-metrics/stackoverflow.svg
-          token: NOT_NEEDED
-          base: ""
-          plugin_stackoverflow: yes
-          plugin_stackoverflow_user: 1
-          plugin_stackoverflow_sections: answers-top
-          plugin_stackoverflow_limit: 2
 
 #       # 🌸 Anilist watch list and reading list
 #       - name: Favorites characters
