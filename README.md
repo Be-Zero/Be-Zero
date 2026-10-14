@@ -29,20 +29,12 @@
 
 #  🙋 Hello
 
-<table>
-<tr><td>
-
 <!-- About me 关于我 -->
-### 🤺 About Me
-
-<img align="right" width="88" src="https://raw.githubusercontent.com/Be-Zero/PicGo/main/blog/2023-07-01-12-28-41.jpg" />
-
-<p>&emsp;&emsp;BeZer0 Space</p>
-<p>&emsp;&emsp;visit my blog https://blog.bezer0.cn</p>
-
-</td></tr>
-
-</table>
+<div align="center">
+  <h3>💭 About Me</h3>
+  <p>BeZer0 Space</p>
+  <p>visit my blog https://blog.bezer0.cn</p>
+</div>
 
 <!-- ########################################## 分割 ########################################## -->
 <img width="100%" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/assets/images/hr.gif" alt="" />
