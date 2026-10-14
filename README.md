@@ -81,10 +81,8 @@
     <td width="50%" align="center"><img width="100%" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/achievements.compact.svg" alt="achievements.compact" /></td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><img width="100%" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/notable.svg" alt="notable" /></td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center"><img width="100%" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/wakatime.svg" alt="wakatime" /></td>
+    <td width="50%" align="center"><img width="100%" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/notable.svg" alt="notable" /></td>
+    <td width="50%" align="center"><img width="100%" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/wakatime.svg" alt="wakatime" /></td>
   </tr>
   <tr>
     <td width="50%" align="center"><img width="100%" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/isocalendar.fullyear.svg" alt="isocalendar.fullyear" /></td>
@@ -95,10 +93,8 @@
     <td width="50%" align="center"><img width="100%" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/repositories.pinned.svg" alt="repositories.pinned" /></td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><img width="100%" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/stars.svg" alt="stars" /></td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center"><img width="100%" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/stargazers.chartist.svg" alt="stargazers.chartist" /></td>
+    <td width="50%" align="center"><img width="100%" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/stars.svg" alt="stars" /></td>
+    <td width="50%" align="center"><img width="100%" src="https://raw.githubusercontent.com/Be-Zero/Be-Zero/main/github-metrics/stargazers.chartist.svg" alt="stargazers.chartist" /></td>
   </tr>
 </table>
 
