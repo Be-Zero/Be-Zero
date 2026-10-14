@@ -16,7 +16,7 @@ jobs:
       - uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          # The action calls GitHub user/repository APIs and needs a PAT with repo and user scopes.
+          # The action calls GitHub user/repository APIs and needs a PAT.
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           # Keep git push authenticated with the workflow token to avoid extra activity.
           PUSH_TOKEN: ${{ github.token }}

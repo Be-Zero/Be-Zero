@@ -91,16 +91,8 @@ jobs:
 #           plugin_licenses_ratio: yes
           
       # 💡 Coding habits and activity
-      - name: Recent activity charts
-        uses: lowlighter/metrics@latest
-        with:
-          filename: github-metrics/habits.charts.svg
-          token: ${{ github.token }}
-          base: ""
-          plugin_habits: yes
-          plugin_habits_facts: no
-          plugin_habits_charts: yes
-          config_timezone: Europe/Paris
+      # Disabled because the upstream plugin expects event payload fields that
+      # GitHub no longer returns from the user events API.
           
 #       # 🏅 Repository contributors
 #       - name: Contributors with contributions count
@@ -193,7 +185,10 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics/achievements.compact.svg
-          token: ${{ github.token }}
+          # Achievements queries user-level GraphQL data and needs a PAT.
+          token: ${{ secrets.GH_TOKEN }}
+          # Keep repository writes scoped to the workflow token.
+          committer_token: ${{ github.token }}
           base: ""
           plugin_achievements: yes
           plugin_achievements_only: >-
@@ -203,16 +198,8 @@ jobs:
           plugin_achievements_threshold: X
 
       # 📰 Recent activity
-      - name: Recent activity
-        uses: lowlighter/metrics@latest
-        with:
-          filename: github-metrics/activity.svg
-          token: ${{ github.token }}
-          base: ""
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 0
-          plugin_activity_filter: issue, pr, release, fork, review, ref/create
+      # Disabled because the upstream plugin parses legacy event payloads
+      # before applying its event filter.
    
 #       # ♐ Random code snippet
 #       - name: JavaScript or TypeScript snippet of the day
