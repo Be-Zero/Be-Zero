@@ -184,9 +184,9 @@ jobs:
 
       # 🏆 Achievements
       - name: Compact display
-        # Pinned to upstream PR #1769 until it is released in @latest.
-        # @latest still queries the removed Projects Classic API.
-        uses: lowlighter/metrics@ca58c6bb513e4a04afca0ad2e46b943b543f74cc
+        # Pinned to upstream PR #1834 until it is released in @latest.
+        # This version queries Projects V2 instead of the removed Projects Classic API.
+        uses: lowlighter/metrics@1e49d0b8b932624dd7762147e35ccc137eda09f1
         with:
           filename: github-metrics/achievements.compact.svg
           # Achievements queries user-level GraphQL data and needs a PAT.
