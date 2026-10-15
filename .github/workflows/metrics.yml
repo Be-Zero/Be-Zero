@@ -184,10 +184,9 @@ jobs:
 
       # 🏆 Achievements
       - name: Compact display
-        # Pinned to a maintained fork containing the Projects V2 migration and
-        # a current Docker build, including xz-utils for licensed/nokogiri and
-        # a modern Chrome keyring (the upstream PR still uses the old image).
-        uses: lexicalunit/metrics@1bc4e0f44c4a00ab40e6776e9c7b3271a5ba59a4
+        # Pinned to the PR #1769 implementation. It overlays the Projects V2
+        # fix on the official pre-built image instead of rebuilding everything.
+        uses: dkhokhlov/metrics@ca58c6bb513e4a04afca0ad2e46b943b543f74cc
         with:
           filename: github-metrics/achievements.compact.svg
           # Achievements queries user-level GraphQL data and needs a PAT.
