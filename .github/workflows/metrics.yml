@@ -189,6 +189,9 @@ jobs:
         uses: lowlighter/metrics@1e49d0b8b932624dd7762147e35ccc137eda09f1
         with:
           filename: github-metrics/achievements.compact.svg
+          # The pinned beta commit is newer than the published v3.35-beta image.
+          # Build from this commit so the Projects V2 fix is actually used.
+          use_prebuilt_image: no
           # Achievements queries user-level GraphQL data and needs a PAT.
           token: ${{ secrets.GH_TOKEN }}
           # Keep repository writes scoped to the workflow token.
