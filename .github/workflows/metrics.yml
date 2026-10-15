@@ -184,14 +184,12 @@ jobs:
 
       # 🏆 Achievements
       - name: Compact display
-        # Pinned to upstream PR #1834 until it is released in @latest.
-        # This version queries Projects V2 instead of the removed Projects Classic API.
-        uses: lowlighter/metrics@1e49d0b8b932624dd7762147e35ccc137eda09f1
+        # Pinned to a maintained fork containing the Projects V2 migration and
+        # a current Docker build, including xz-utils for licensed/nokogiri and
+        # a modern Chrome keyring (the upstream PR still uses the old image).
+        uses: lexicalunit/metrics@1bc4e0f44c4a00ab40e6776e9c7b3271a5ba59a4
         with:
           filename: github-metrics/achievements.compact.svg
-          # The pinned beta commit is newer than the published v3.35-beta image.
-          # Build from this commit so the Projects V2 fix is actually used.
-          use_prebuilt_image: no
           # Achievements queries user-level GraphQL data and needs a PAT.
           token: ${{ secrets.GH_TOKEN }}
           # Keep repository writes scoped to the workflow token.
